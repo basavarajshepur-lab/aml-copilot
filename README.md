@@ -208,7 +208,7 @@ See `docs/responsible-ai-checklist.md` for the full governance framework.
 
 ## Background
 
-Built by [Basavaraj Shepur](https://linkedin.com/in/basavarajshepur) — Senior AI Product Manager with 19 years in financial services. Former Senior Product Owner at Deutsche Bank CDO (AI/data platform) and LSEG/Refinitiv (including Worldcheck AML data integration and VEDaaS entity verification). This system implements the responsible AI patterns used in production at Deutsche Bank: confidence thresholds, human-in-the-loop gates, full audit chains, and explainability-first design.
+Built by [Basavaraj Shepur](https://linkedin.com/in/basavarajshepur) — Senior AI Product Manager with 19 years in financial services. Former Senior Product Owner at Deutsche Bank CDO (AI/data platform) and LSEG/Refinitiv (including Worldcheck AML data integration and VEDaaS entity verification). This system implements the responsible AI patterns used in global banks: confidence thresholds, human-in-the-loop gates, full audit chains, and explainability-first design.
 
 ---
 
