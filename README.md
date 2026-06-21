@@ -79,6 +79,7 @@ pip install -r requirements.txt
 cp .env.example .env
 # Add your ANTHROPIC_API_KEY to .env
 streamlit run app.py
+if the above command doesn't work then execute - python -m streamlit run app.py
 ```
 
 **CLI — process a single alert:**
