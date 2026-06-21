@@ -19,7 +19,7 @@ to analyst queue regardless of the AI recommendation.
 import os
 import json
 from anthropic import Anthropic
-from ..core.models import EnrichedAlert, TriageDecision, RiskDecision
+from core.models import EnrichedAlert, TriageDecision, RiskDecision
 
 client = Anthropic()
 

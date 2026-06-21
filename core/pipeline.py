@@ -15,9 +15,9 @@ Design decisions:
 import os
 import time
 import uuid
-from ..agents import enrichment_agent, risk_analysis_agent, narrative_agent
-from ..core.models import Alert, PipelineResult, RiskDecision
-from ..core.audit_trail import log_ai_decision
+from agents import enrichment_agent, risk_analysis_agent, narrative_agent
+from core.models import Alert, PipelineResult, RiskDecision
+from core.audit_trail import log_ai_decision
 
 HITL_THRESHOLD = float(os.getenv("HITL_THRESHOLD", "0.85"))
 CONFIDENCE_THRESHOLD = float(os.getenv("CONFIDENCE_THRESHOLD", "0.75"))

@@ -13,7 +13,7 @@ In production: SAR filing goes through the bank's FCA/FinCEN reporting system
 """
 
 from anthropic import Anthropic
-from ..core.models import EnrichedAlert, TriageDecision, SARNarrative
+from core.models import EnrichedAlert, TriageDecision, SARNarrative
 
 client = Anthropic()
 

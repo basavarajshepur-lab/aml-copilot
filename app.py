@@ -7,6 +7,9 @@ override where needed, and maintain the audit trail.
 Run: streamlit run app.py
 """
 
+from dotenv import load_dotenv
+load_dotenv()
+
 import json
 import time
 import streamlit as st

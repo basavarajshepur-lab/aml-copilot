@@ -19,7 +19,7 @@ risk analysis uses reasoning over structured enrichment output.
 import json
 import re
 from anthropic import Anthropic
-from ..core.models import Alert, EnrichedAlert, SanctionsHit, CountryRisk
+from core.models import Alert, EnrichedAlert, SanctionsHit, CountryRisk
 
 client = Anthropic()
 
