@@ -60,8 +60,9 @@ A three-agent pipeline that triages an AML alert from raw data to documented dec
 ## Features
 
 - **Enrichment Agent** — screens customer and counterparty against sanctions lists (OFAC, UN, EU, HMT), PEP databases, and adverse media using Claude tool use
+Here are the full forms of those sanctions and regulatory bodies:OFAC: Office of Foreign Assets Control (US)UN: United NationsEU: European UnionHMT: Her Majesty's Treasury (UK) Note: This is now formally known as His Majesty's Treasury following the accession of King Charles III.
 - **Risk Analysis Agent** — structured reasoning at low temperature: risk score, triage decision, confidence, numbered reasoning chain, red flags, mitigating factors
-- **SAR Narrative Agent** — drafts Suspicious Activity Report in FCA/FinCEN format; only runs on SAR decisions; always requires MLRO review
+- **SAR Narrative Agent** — drafts Suspicious Activity Report in FCA/FinCEN format; only runs on SAR decisions; always requires MLRO (Money Laundering Reporting Officer) review
 - **HITL Queue** — decisions below 0.85 confidence, and all SAR/ESCALATE decisions, route to analyst review before any action is taken
 - **Audit Trail** — append-only SQLite log: AI recommendation → analyst decision → final outcome. Exportable to CSV for regulatory submission
 - **Streamlit UI** — analyst review interface with enrichment panel, reasoning display, decision workflow, and queue dashboard
